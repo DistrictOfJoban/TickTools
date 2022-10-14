@@ -1,0 +1,31 @@
+# Required options
+splitTickDistance = false
+# Required if relevant config option above is enabled
+tickDistance = 8
+
+[dynamic]
+dynamicTickDistance = false
+minTickDistance = 4
+dynamicRenderDistance = false
+minRenderDistance = 4
+maxRenderDistance = 12
+# This value controls the MSPT used to target
+targetMSPT = 50.0
+
+# Optional
+
+itemDespawnTicks = 6000
+
+# Example config for world specific
+# Uncomment to use
+#[the_nether]
+    #splitTickDistance = true
+    #tickDistance = 8
+    #itemDespawnTicks = 6000
+
+    #[the_nether.dynamic]
+    #   dynamicTickDistance = false
+    #   minTickDistance = 4
+    #   dynamicRenderDistance = false
+    #   minRenderDistance = 4
+    #   maxRenderDistance = 12
